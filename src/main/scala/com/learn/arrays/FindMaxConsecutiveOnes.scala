@@ -1,5 +1,6 @@
 package com.learn.arrays
 
+import Utils.time
 /**
  * Given a binary array, find the maximum number of consecutive 1s in this array.
  *
@@ -29,11 +30,5 @@ object FindMaxConsecutiveOnes {
     max
   }
 
-  def time[R](block: => R): R = {
-    val t0 = System.currentTimeMillis()
-    val result = block // call-by-name
-    val t1 = System.currentTimeMillis()
-    println("Elapsed time: " + (t1 - t0) / 1000.0 + "s")
-    result
-  }
+  
 }
