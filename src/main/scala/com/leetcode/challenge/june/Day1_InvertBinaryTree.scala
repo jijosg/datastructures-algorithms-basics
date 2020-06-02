@@ -22,7 +22,7 @@ import com.learn.arrays.Utils
  * / \   / \
  * 9   6 3   1
  */
-object InvertBinaryTree {
+object Day1_InvertBinaryTree {
 
   def main(args: Array[String]): Unit = {
     val sampleTree = new TreeNode(4
