@@ -28,11 +28,15 @@ object Day8_PowerOfTwo {
     println(Utils.time(isPowerOfTwo(6)))
   }
 
-  def isPowerOfTwo(n: Int): Boolean = {
+  def isPowerOfTwo1(n: Int): Boolean = {
     if (n == 1) true
     else if (n != 0 && n % 2 == 0) {
       isPowerOfTwo(n / 2)
     } else false
   }
 
+  // new trick comparing either n&(n-1) or n&-n both yield same results
+  def isPowerOfTwo(n: Int): Boolean = {
+    n>0 && (n & -n) == n
+  }
 }
