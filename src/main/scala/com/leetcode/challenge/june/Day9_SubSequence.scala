@@ -25,7 +25,7 @@ import com.learn.arrays.Utils
  * Input: s = "axc", t = "ahbgdc"
  * Output: false
  */
-object Day8_SubSequence {
+object Day9_SubSequence {
   def main(args: Array[String]): Unit = {
     //val s = "abc"
     //val t = "ahbgdc"
