@@ -1,5 +1,4 @@
-package com.learn.arrays
-
+package com.common
 
 object Utils {
   /*

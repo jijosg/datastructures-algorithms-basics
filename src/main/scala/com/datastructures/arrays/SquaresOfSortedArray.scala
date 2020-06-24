@@ -1,6 +1,6 @@
-package com.learn.arrays
+package com.datastructures.arrays
 
-import com.learn.arrays.Utils._
+import com.common.Utils._
 
 object SquaresOfSortedArray {
   /**

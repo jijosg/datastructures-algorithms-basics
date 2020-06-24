@@ -1,5 +1,5 @@
 
-import com.learn.arrays.Utils
+import com.common.Utils
 import org.junit.Test
 import org.junit.Assert._
 

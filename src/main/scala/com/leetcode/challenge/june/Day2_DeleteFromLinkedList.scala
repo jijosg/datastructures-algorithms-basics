@@ -1,6 +1,7 @@
 package com.leetcode.challenge.june
 
-import com.learn.arrays.Utils
+
+import com.common.Utils
 
 import scala.util.control.Breaks._
 
